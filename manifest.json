@@ -1,0 +1,303 @@
+{
+  "package": "WorldOS_Decade_v2",
+  "generated_date": "2026-08-23",
+  "purpose": "Implementation-grade first-decade WorldOS architecture package",
+  "file_count": 59,
+  "files": [
+    {
+      "path": "BUILD_ORDER.md",
+      "bytes": 1235,
+      "sha256": "1f9fe6a669fdde490d389bd816434b1416d31dd1268c5df3760c4afb4d456aa0"
+    },
+    {
+      "path": "CLAUDE_HANDOFF.md",
+      "bytes": 2466,
+      "sha256": "be7fd6986512718eaf467bf871af13413b15b1711cdbb60e32e01bd074c99c5e"
+    },
+    {
+      "path": "DECADE_MAP.md",
+      "bytes": 2626,
+      "sha256": "8c870200a0b6b837fc0a156b0dc8553811a42e04039a426813a50f74dcea8433"
+    },
+    {
+      "path": "DECADE_SCORECARD.md",
+      "bytes": 1614,
+      "sha256": "eeff8421018e17b74b9f92d72b4067b876e913f06c793f98a354d59019f72a08"
+    },
+    {
+      "path": "DECISIONS_LOG.md",
+      "bytes": 2321,
+      "sha256": "8f3de1a182bbdd31bf32f9896d7e8dd270387fa6529a1c9a082bf01a5804feb9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3262,
+      "sha256": "ef210da7956f93eda28ccdd6a8224eac751fc9bf00414a1bfb505418a5ae0fbe"
+    },
+    {
+      "path": "SOURCE_ALIGNMENT.md",
+      "bytes": 1962,
+      "sha256": "a721b30a26aadc159ba081e36e6fa78eb52875f4cbda1069e579e9879934fe99"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1529,
+      "sha256": "105ad13b90877a8bf96634992e5c25a127da3b63b1e64cb22b27716577518a67"
+    },
+    {
+      "path": "architecture/API_CONTRACT_DIRECTION.md",
+      "bytes": 1574,
+      "sha256": "70ce4f0a25a87ebffda817a69904125688c5ab772e65867a080731507c967059"
+    },
+    {
+      "path": "architecture/CORE_DOMAIN_MODEL.md",
+      "bytes": 2548,
+      "sha256": "cad6ca73c2f450d88755b34a19c6c358b26efe553487727d56560261242dc055"
+    },
+    {
+      "path": "architecture/END_STATE.md",
+      "bytes": 1087,
+      "sha256": "a478b3e1cf336f3441c927c134ef5d1c4cb4450e21770c496735b3f5fde3ce92"
+    },
+    {
+      "path": "architecture/FEDERATION_DIRECTION.md",
+      "bytes": 1263,
+      "sha256": "3d66459b856c4519acd562cc26698cdddad22803fd6a7169f0d19d3a04bcfd5d"
+    },
+    {
+      "path": "architecture/FRONTEND_INFORMATION_ARCHITECTURE.md",
+      "bytes": 1932,
+      "sha256": "a47376b0acd853ad5483a8bc92e4554fbb6191cc1f2f9bf18c5f4e0ddc59a05b"
+    },
+    {
+      "path": "architecture/OUT_OF_SCOPE.md",
+      "bytes": 895,
+      "sha256": "99d2044a8339eb46c87509ea10085f1a0c83e6d3a606f1b5b2f959547c28eab6"
+    },
+    {
+      "path": "architecture/PORTABILITY_DOCTRINE.md",
+      "bytes": 785,
+      "sha256": "83a62b4e38b3238b3f5d83198e136e1abee0efd3928558bf7cff4b533a5b469a"
+    },
+    {
+      "path": "architecture/PRESERVATION_POLICY.md",
+      "bytes": 1397,
+      "sha256": "d6fddca8fdb5b622fc3a8e27a88661f773453a0af2c66c5d4404b6b192a06da1"
+    },
+    {
+      "path": "architecture/PUBLIC_SOURCE_CATALOG_DOCTRINE.md",
+      "bytes": 1462,
+      "sha256": "d6d94b8d255c169bc602938a4a9dce56e6f77777b491f5167c30a99b08aab64a"
+    },
+    {
+      "path": "architecture/REFERENCE_STACK.md",
+      "bytes": 1563,
+      "sha256": "f4052d000ec36bfa0357aa849d6adfa6d1464448dc20f31b5bc207432e6d13ea"
+    },
+    {
+      "path": "architecture/RELIABILITY_DOCTRINE.md",
+      "bytes": 1077,
+      "sha256": "19b2b3f3afb5b205957ffdf3eec0e791da4d55e358d57f4d0ddcdb4b34d0b881"
+    },
+    {
+      "path": "architecture/SECURITY_AND_ADMIN.md",
+      "bytes": 1141,
+      "sha256": "256c8bf7129b1cefe40f47f17d762b0f3ebf88aa8c12566445eb33f97bf2933c"
+    },
+    {
+      "path": "architecture/SELF_HOSTING_DOCTRINE.md",
+      "bytes": 1323,
+      "sha256": "a69bbad910285b452901475bb70932ef3a1fc24a7bcf6e995b13759ab0140a0c"
+    },
+    {
+      "path": "architecture/SOURCE_OBSERVATION_MODEL.md",
+      "bytes": 1793,
+      "sha256": "d6054a3d6fa0f982f2632f5376110b9f111ce4fb2acdbae47518d034f7a6f5ae"
+    },
+    {
+      "path": "architecture/SYSTEM_BOUNDARY.md",
+      "bytes": 2095,
+      "sha256": "50d695822d626c3ba7bc91b2f6a1aed1a59f9388cb5a32d498c19fc5a3851a88"
+    },
+    {
+      "path": "examples/external_client.example.py",
+      "bytes": 409,
+      "sha256": "5d539fc69e24aba7dc7058e2d1ffc31c89b8ae264bb104759cb548fddfed19e9"
+    },
+    {
+      "path": "examples/federation_bundle.example.json",
+      "bytes": 678,
+      "sha256": "f412bd0d1fe90c51e479bbd72d25e486f10cc358c19dba8b427575b7f83a2996"
+    },
+    {
+      "path": "examples/source_manifest.example.yaml",
+      "bytes": 445,
+      "sha256": "72a319a58650a3dcbe67f1468b62e842a2ed2d6f47177f36405d5c9584e89cda"
+    },
+    {
+      "path": "plans/DEPLOYMENT_MATRIX.md",
+      "bytes": 701,
+      "sha256": "d277944c848b376cf94dfe12b1cbf8778b122c7caff4d314c363d9dfe1620cea"
+    },
+    {
+      "path": "plans/FEDERATION_CONTRIBUTION_FLOW.md",
+      "bytes": 657,
+      "sha256": "e698a4bafa1605f4eb69d2cb70c744a0f70d65e250780a8ecae3b68d5b9b1d60"
+    },
+    {
+      "path": "plans/MIGRATION_POLICY.md",
+      "bytes": 758,
+      "sha256": "35c93625e0b62b7e7dc51606acf3878ec7533b403040b0830bc9af9134af687a"
+    },
+    {
+      "path": "plans/OBSERVABILITY_PLAN.md",
+      "bytes": 660,
+      "sha256": "547405c9df5b39721689b1ba774b8e9489d2e8d409d3a023de1d5c0a47406b1a"
+    },
+    {
+      "path": "plans/RELEASE_GATES.md",
+      "bytes": 1084,
+      "sha256": "28eca36292634bdafe257d86ae9a9aa3b9a21ce0906c2a39e78d5d053828dca4"
+    },
+    {
+      "path": "plans/SOURCE_CATALOG_CONTRIBUTION_WORKFLOW.md",
+      "bytes": 1009,
+      "sha256": "4bd807f8f0fb58aa208d91ee5ca224fc6a3a1d396868045a8696a14d16e8b30f"
+    },
+    {
+      "path": "plans/SPRINT_001_BUILD_PLAN.md",
+      "bytes": 6297,
+      "sha256": "90e5c9143deb9becf7f0f6fe152a93ff2486a0e96569988158660ed48543f6fe"
+    },
+    {
+      "path": "plans/TEST_STRATEGY.md",
+      "bytes": 1066,
+      "sha256": "c87dfae217371946f605062631dffa48cf43e3985cf346ea12ff525f29478bd6"
+    },
+    {
+      "path": "reference/canonical/ARCHITECTURE_DOCTRINE.md",
+      "bytes": 3695,
+      "sha256": "4ddac321f510aedf2ebc45c1cf9a2fa6872100b42e852e52e147d4948827bae4"
+    },
+    {
+      "path": "reference/canonical/DESIGN_QUESTIONS.md",
+      "bytes": 3089,
+      "sha256": "6514a8eeb4f04d22a3c2a0aa3f3dc86a42167e2f0206facf71a3f78ddca8ad56"
+    },
+    {
+      "path": "reference/canonical/FOUNDING_CHARTER.md",
+      "bytes": 3519,
+      "sha256": "83df444c955b919d9ba2de370307025b7837b0593e7bf888f7436ca4bf5e831d"
+    },
+    {
+      "path": "reference/canonical/FOUNDING_PACK_README.md",
+      "bytes": 2232,
+      "sha256": "49f626fe97e4483983cb9e554ee79adec1002d637755b22bf69784c9ad2530b5"
+    },
+    {
+      "path": "reference/canonical/JURISDICTION.md",
+      "bytes": 4144,
+      "sha256": "b65a982ff28269207520a3e7abcfa8844867da19aefbf44c0eff10eac130150c"
+    },
+    {
+      "path": "reference/canonical/OPEN_SOURCE_PRINCIPLES.md",
+      "bytes": 2292,
+      "sha256": "a9c0f7da8bd4fff1c6ae0e422ae8deeba98c546cd427c93efab1732f5a85f071"
+    },
+    {
+      "path": "reference/canonical/TEXT_FIRST_MVP.md",
+      "bytes": 3276,
+      "sha256": "0c78958ef331e416d8b7bc7729d82312c306acfafa9e43c6e9cf5abd6fcab2d5"
+    },
+    {
+      "path": "reference/legacy/WORLD_MUST_REMAIN_OUTSIDE_MODEL_LEGACY.md",
+      "bytes": 9174,
+      "sha256": "32fbbfef97c3153591b3846056fa2d2a301556a088cf6b8cc8b122e8017204a5"
+    },
+    {
+      "path": "schemas/API_RESOURCE_SHAPES.md",
+      "bytes": 968,
+      "sha256": "4d662bb4771c05b73ca8826cfbc938c063694bfeccfc6885abff6a250c971eea"
+    },
+    {
+      "path": "schemas/CORE_OBJECTS.md",
+      "bytes": 1353,
+      "sha256": "88e20c24eea13b6d7f3bd7401debbf67e445c1aa2053dff2796592a7623ebb42"
+    },
+    {
+      "path": "schemas/PRESERVATION_MODES.md",
+      "bytes": 529,
+      "sha256": "faaa7dc7e86d8b83c4fda618958ac00352e2a0771dceb91c4d91c20d93a3a8f3"
+    },
+    {
+      "path": "schemas/STATUS_ENUMS.md",
+      "bytes": 697,
+      "sha256": "afe7ef476e0257ffb13b80e02c3526edf3cfd8adb7c559d359b6a12ded5ce5cd"
+    },
+    {
+      "path": "schemas/federation_bundle.schema.json",
+      "bytes": 1046,
+      "sha256": "8f395c072eec84d313afb8d11918d6f869a7f9104bc2bae0d6e9c7a16b4d7929"
+    },
+    {
+      "path": "schemas/source_manifest.schema.json",
+      "bytes": 1882,
+      "sha256": "a8ed96dd4595571bddb2603b0551f60b8bf8f846d15b924220bcdd5719ebc859"
+    },
+    {
+      "path": "sprints/SPRINT_001_FIRST_MEMORY.md",
+      "bytes": 2771,
+      "sha256": "b94b428a82516b08a9ee6041fda78a79ad27fb2a008494a21a0b3b6f3606270a"
+    },
+    {
+      "path": "sprints/SPRINT_002_THE_REGISTRY.md",
+      "bytes": 2240,
+      "sha256": "e63f3dc1e8c55cca132a9b89f7e6746c232cb9d1e7fa5daeb2f8e749f324c1f5"
+    },
+    {
+      "path": "sprints/SPRINT_003_THE_CHRONICLE.md",
+      "bytes": 2133,
+      "sha256": "95f30dd1d2b9f39be7d11419552fcf89b939ad9320d3833e89e2636337890fc0"
+    },
+    {
+      "path": "sprints/SPRINT_004_ADDRESSABLE_DOCUMENT.md",
+      "bytes": 2022,
+      "sha256": "ea085cf0cdfe97cd7aa3d88d765af8d2542e14a39fc181b1b60618a5a864acba"
+    },
+    {
+      "path": "sprints/SPRINT_005_THE_LIBRARY.md",
+      "bytes": 1931,
+      "sha256": "2552607f090d99cd2aa449f7f5500a3b9a5830e3818b0897b30f7772a22e88d8"
+    },
+    {
+      "path": "sprints/SPRINT_006_THE_CONNECTOR.md",
+      "bytes": 2133,
+      "sha256": "30385ce687dd284ca31427780e10dc80e2bb7f2b09ffb716b91a8dc45a7f376d"
+    },
+    {
+      "path": "sprints/SPRINT_007_THE_WORLD_SHELF.md",
+      "bytes": 2447,
+      "sha256": "2e5aad298d31bae38036f75392bddaf82a04cb8647c1e209c92292baa352e625"
+    },
+    {
+      "path": "sprints/SPRINT_008_THE_COMMONS.md",
+      "bytes": 2104,
+      "sha256": "d8ee4733d420ec59e3f16a371af8ac82f5698b51aebe0a74ac208a248e2fac8c"
+    },
+    {
+      "path": "sprints/SPRINT_009_BRING_YOUR_OWN_WORLDOS.md",
+      "bytes": 2407,
+      "sha256": "63abce7d39b14de4fe6b0adc47a6ca4a250aef475968899055477f766d182ce3"
+    },
+    {
+      "path": "sprints/SPRINT_010_BEYOND_THE_BOUNDARY.md",
+      "bytes": 3094,
+      "sha256": "7ed824b1c9d052a8183d48e3665c9e9de4cd321355b2f9737cd714a1eeb92953"
+    },
+    {
+      "path": "sprints/SPRINT_TEMPLATE.md",
+      "bytes": 681,
+      "sha256": "1b70035dda3c96ea4b8dbd2eb78b953be653f4cb7820f2d04be8968047a0b2d5"
+    }
+  ]
+}

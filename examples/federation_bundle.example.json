@@ -1,0 +1,31 @@
+{
+  "bundle_version": "1.0-draft",
+  "created_at": "2026-08-23T00:00:00Z",
+  "origin": {
+    "name": "Example WorldOS Community Node",
+    "url": "https://worldos.example"
+  },
+  "sources": [
+    {
+      "source_id": "example-government-notices",
+      "canonical_url": "https://example.gov/notices",
+      "adapter": "html",
+      "preservation_mode": "extracted_text",
+      "latest_observed_hash": "sha256:example",
+      "redistributable_content": false
+    }
+  ],
+  "adapters": [
+    {
+      "name": "html",
+      "version": "1"
+    }
+  ],
+  "coverage": [
+    {
+      "jurisdiction_ref": "example-jurisdiction",
+      "configured_sources": 1
+    }
+  ],
+  "checksums": {}
+}

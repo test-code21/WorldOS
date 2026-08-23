@@ -1,0 +1,14 @@
+manifest_version: "1.0-draft"
+name: "Example Public Sources"
+origin: "local-example"
+sources:
+  - source_id: "example-government-notices"
+    name: "Example Government Notices"
+    canonical_url: "https://example.gov/notices"
+    source_class: "government_notice"
+    jurisdiction_ref: "example-jurisdiction"
+    declared_languages: ["en"]
+    adapter: "html"
+    preservation_mode: "extracted_text"
+    default_cadence: "P1D"
+    enabled: true

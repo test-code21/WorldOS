@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://worldos.example/schemas/federation-bundle.schema.json",
+  "title": "WorldOS Community Bundle",
+  "type": "object",
+  "required": [
+    "bundle_version",
+    "created_at",
+    "origin",
+    "sources"
+  ],
+  "properties": {
+    "bundle_version": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "origin": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "adapters": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "checksums": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

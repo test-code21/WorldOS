@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://worldos.example/schemas/source-manifest.schema.json",
+  "title": "WorldOS Source Manifest",
+  "type": "object",
+  "required": [
+    "manifest_version",
+    "sources"
+  ],
+  "properties": {
+    "manifest_version": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "name",
+          "canonical_url",
+          "adapter",
+          "preservation_mode"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_class": {
+            "type": "string"
+          },
+          "jurisdiction_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "declared_languages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "adapter": {
+            "type": "string"
+          },
+          "preservation_mode": {
+            "enum": [
+              "full",
+              "extracted_text",
+              "metadata_only",
+              "reference_only"
+            ]
+          },
+          "default_cadence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "enabled": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
